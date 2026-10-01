@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(115, 203, 233);
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px 60px;
+}
+
+/* Navbar Layout */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .btn-signin {
+    background-color: #ff5252;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+/* Main Section Layout */
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.content {
+    max-width: 500px;
+}
+
+.content h1 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.content .desc {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Search Form */
+.search-form {
+    display: flex;
+    background: white;
+    border-radius: 30px;
+    padding: 4px;
+    width: 380px;
+}
+
+.search-form input {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 30px 0 0 30px;
+    width: 100%;
+}
+
+.search-form button {
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+img{
+    position: absolute;
+    top: 200px;
+    right: 30px;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+}
+
